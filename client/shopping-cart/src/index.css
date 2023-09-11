@@ -1,0 +1,147 @@
+* {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #efefef;
+}
+/* Component css */
+.card {
+  position: relative;
+}
+
+.sale {
+  text-decoration: line-through;
+}
+.sale-icon {
+  width: 50px;
+  height: 50px;
+  background-color: rgb(162, 9, 9);
+  color: white;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 50px;
+  text-transform: capitalize;
+  font-weight: bold;
+  position: absolute;
+  top: -10px;
+  left: -10px;
+}
+/* Homepage css */
+.section-thuong-vy-yen {
+  margin-top: 50px;
+}
+
+.section-thuong-vy-yen .category-name {
+  margin-top: 25px;
+  background-color: #fff;
+  border-bottom: 1px solid #404040;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.section-thuong-vy-yen .category-products {
+  background-color: #fff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.section-thuong-vy-sam {
+  margin-top: 50px;
+}
+
+.section-thuong-vy-sam .category-name {
+  margin-top: 25px;
+  background-color: #fff;
+  border-bottom: 1px solid #404040;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.section-thuong-vy-sam .category-products {
+  background-color: #fff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+* {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #efefef;
+}
+
+.sale {
+  text-decoration: line-through;
+}
+
+.section-thuong-vy-yen {
+  margin-top: 50px;
+}
+
+.section-thuong-vy-yen .category-name {
+  margin-top: 25px;
+  background-color: #fff;
+  border-bottom: 1px solid #404040;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  box-shadow: 2px 2px rgba(128, 128, 128, 0.163);
+}
+
+.section-thuong-vy-yen .category-products {
+  background-color: #fff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  box-shadow: 2px 2px rgba(128, 128, 128, 0.163);
+}
+
+.section-thuong-vy-sam {
+  margin-top: 50px;
+}
+
+.section-thuong-vy-sam .category-name {
+  margin-top: 25px;
+  background-color: #fff;
+  border-bottom: 1px solid #404040;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  box-shadow: 2px 2px rgba(128, 128, 128, 0.066);
+}
+
+.section-thuong-vy-sam .category-products {
+  background-color: #fff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  box-shadow: 2px 2px rgba(128, 128, 128, 0.163);
+}
+/* Product Page css*/
+
+.ProductPage .product-detail .mini-description-item {
+  padding-right: 10px;
+}
+
+.btntanggiam {
+  border-radius: 10px;
+}
+
+textarea[type="text"]::placeholder {
+  margin-left: "10px";
+}
